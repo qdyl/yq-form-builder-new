@@ -15,6 +15,10 @@ const routes = [
         component:() => import('../views/Child.vue'),
       }
     ]
+  },
+  {
+    path:'/layout',
+    component:()=>import('../components/layout/layout.vue')
   }
 
 ]
